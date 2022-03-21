@@ -4,6 +4,9 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 
+use Faker\Factory as Faker;
+use DB;
+
 class PegawaiSeeder extends Seeder
 {
     /**
@@ -29,8 +32,3 @@ class PegawaiSeeder extends Seeder
  
     }
 }
-
-
-
-
-
